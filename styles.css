@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:400,500,700");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #24272e;
+  font-family: "Asap", sans-serif;
+}
+
+header {
+  background: white;
+  padding: 20px;
+}
+
+header > h1 {
+  color: #25272e;
+  text-align: center;
+}
+
+.score-board {
+  margin: 20px auto;
+  border: solid white;
+  border-radius: 4px;
+  text-align: center;
+  width: 200px;
+  color: white;
+  font-size: 46px;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.badge {
+  background: #e25840;
+  color: white;
+  font-size: 14px;
+  padding: 2px 10px;
+}
+
+#user-label {
+  position: absolute;
+  top: 30px;
+  left: -35px;
+}
+
+#comp-label {
+  position: absolute;
+  top: 30px;
+  right: -35px;
+}
+
+.result {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.choices {
+  margin: 50px 0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.choice {
+  /* horizontal */
+  display: inline-block;
+  border: 4px solid white;
+  border-radius: 50%;
+  margin: 0 20px;
+  padding: 30px;
+  transition: all 0.3s ease;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: #666970;
+}
+
+#action-message {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.green-border {
+  border-radius: 4px solid green;
+  box-shadow: 0 0 20px greenyellow;
+}
+
+.red-border {
+  border-radius: 4px solid rgb(185, 2, 2);
+  box-shadow: 0 0 20px rgb(255, 47, 47);
+}
+
+.gray-border {
+  border-radius: 4px solid rgb(255, 255, 255);
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+}
