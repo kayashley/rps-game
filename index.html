@@ -3,10 +3,40 @@
         <head>
             <meta charset="UTF-8">
             <title>RPS GAME</title>
-            <script src="scripts.js"></script>
+            <link rel="stylesheet" href="styles.css" type="text/css">
         </head>
         <body>
+
+            <header>
+                <h1>Rock - Paper - Scissors</h1>
+            </header>
             
+            <div class="score-board">
+                <div id="user-label" class="badge">user(p1)</div>
+                <div id="comp-label" class="badge">comp(c)</div>
+                <span id="user-score">0</span>:<span id="comp-score">0</span>
+            </div>
+
+            <div class="result">
+                <p>Paper covers rock, you win!</p>
+            </div>
+
+            <div class="choices">
+                <div class="choice" id="r">
+                    <img src="img/rock.png" alt="rock" width="100">
+                </div>
+                <div class="choice" id="p">
+                    <img src="img/paper.png" alt="paper" width="100">
+                </div>
+                <div class="choice" id="s">
+                    <img src="img/scissors.png" alt="scissors" width="90">
+                </div>
+            </div>
+        
+            <p id="action-message">Make your move.</p>>
+            
+            <script src="index.js"></script>
         </body>
+        
     </html>
 
